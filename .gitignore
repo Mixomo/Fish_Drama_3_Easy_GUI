@@ -1,0 +1,71 @@
+# Fish Audio Drama 3 Easy GUI
+# Publish source code, documentation, installers, presets and reusable assets.
+# Exclude only local environments, downloaded data, generated results and builds.
+
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environments, runtime state and caches
+/.venv/
+/.runtime/
+/.cache/
+**/.venv/
+**/.runtime/
+**/.cache/
+.env
+.env.*
+!.env.example
+
+# Local logs and temporary files
+/logs/
+**/logs/
+*.log
+*.tmp
+*.temp
+*.part
+*.bak
+
+# User data and generated audio/model state
+/models/
+/outputs/
+/samples/
+
+# Native/Python build products
+build/
+dist/
+*.egg-info/
+
+# CMake/Ninja and compiled C/C++ artifacts
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+
+# Local IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
